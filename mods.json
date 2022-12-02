@@ -6,18 +6,49 @@
 			"conflicts": ["fnaf9_coop", "wireframe"],
 			"installation": [
 				{
-					"operation": "createDirectory",
-					"directory": "/fnaf9/Content/Paks/LogicMods"
-				},
-				{
 					"operation": "extract",
 					"source": "fml.pak",
 					"destination": "/fnaf9/Content/Paks/LogicMods/fml.pak"
 				},
 				{
 					"operation": "extract",
-					"source": "Win64/",
-					"destination": "/fnaf9/Binaries/Win64"
+					"source": "Win64/dxgi.dll",
+					"destination": "/fnaf9/Binaries/Win64/dxgi.dll"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/imgui.ini",
+					"destination": "/fnaf9/Binaries/Win64/imgui.ini"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/UnrealEngineModLoader.dll",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/UnrealEngineModLoader.dll"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/UMU.dll",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/UMU.dll"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/ModLoaderInfo.ini",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/ModLoaderInfo.ini"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/Profiles/AdvancedExampleGame.profile",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/AdvancedExampleGame.profile"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/Profiles/fnaf9-Win64-Shipping.profile",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/fnaf9-Win64-Shipping.profile"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/Profiles/BasicExampleGame.profile",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/BasicExampleGame.profile"
 				}
 			],
 			"uninstallation": [
