@@ -38,17 +38,17 @@
 				{
 					"operation": "extract",
 					"source": "Win64/Plugins/Profiles/AdvancedExampleGame.profile",
-					"destination": "/fnaf9/Binaries/Win64/Plugins/AdvancedExampleGame.profile"
+					"destination": "/fnaf9/Binaries/Win64/Plugins/Profiles/AdvancedExampleGame.profile"
 				},
 				{
 					"operation": "extract",
 					"source": "Win64/Plugins/Profiles/fnaf9-Win64-Shipping.profile",
-					"destination": "/fnaf9/Binaries/Win64/Plugins/fnaf9-Win64-Shipping.profile"
+					"destination": "/fnaf9/Binaries/Win64/Plugins/Profiles/fnaf9-Win64-Shipping.profile"
 				},
 				{
 					"operation": "extract",
 					"source": "Win64/Plugins/Profiles/BasicExampleGame.profile",
-					"destination": "/fnaf9/Binaries/Win64/Plugins/BasicExampleGame.profile"
+					"destination": "/fnaf9/Binaries/Win64/Plugins/Profiles/BasicExampleGame.profile"
 				}
 			],
 			"uninstallation": [
