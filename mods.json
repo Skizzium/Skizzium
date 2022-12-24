@@ -1,0 +1,168 @@
+{
+	"choo_choo_charles": [
+		{
+			"id": "charles_and_friends",
+			"displayName": "Charles & Friends",
+			"installation": [
+				{
+					"operation": "extract",
+					"source": "Obscure-WindowsNoEditor1.pak",
+					"destination": "/Obscure/Content/Paks/Obscure-WindowsNoEditor1.pak"
+				}
+			],
+			"uninstallation": [
+				{
+					"operation": "remove",
+					"directory": "/Obscure/Content/Paks/Obscure-WindowsNoEditor1.pak"
+				}
+			]
+		}
+	],
+	"security_breach": [
+		{
+			"id": "fml",
+			"displayName": "FNaF Menu Loader",
+			"conflicts": ["fnaf9_coop", "wireframe"],
+			"installation": [
+				{
+					"operation": "extract",
+					"source": "fml.pak",
+					"destination": "/fnaf9/Content/Paks/LogicMods/fml.pak"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/dxgi.dll",
+					"destination": "/fnaf9/Binaries/Win64/dxgi.dll"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/imgui.ini",
+					"destination": "/fnaf9/Binaries/Win64/imgui.ini"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/UnrealEngineModLoader.dll",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/UnrealEngineModLoader.dll"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/UMU.dll",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/UMU.dll"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/ModLoaderInfo.ini",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/ModLoaderInfo.ini"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/Profiles/AdvancedExampleGame.profile",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/Profiles/AdvancedExampleGame.profile"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/Profiles/fnaf9-Win64-Shipping.profile",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/Profiles/fnaf9-Win64-Shipping.profile"
+				},
+				{
+					"operation": "extract",
+					"source": "Win64/Plugins/Profiles/BasicExampleGame.profile",
+					"destination": "/fnaf9/Binaries/Win64/Plugins/Profiles/BasicExampleGame.profile"
+				}
+			],
+			"uninstallation": [
+				{
+					"operation": "remove",
+					"directory": "/fnaf9/Content/Paks/LogicMods/"
+				},
+				{
+					"operation": "remove",
+					"directory": "/fnaf9/Binaries/Win64/Plugins"
+				},
+				{
+					"operation": "remove",
+					"directory": "/fnaf9/Binaries/Win64/dxgi.dll"
+				},
+				{
+					"operation": "remove",
+					"directory": "/fnaf9/Binaries/Win64/imgui.ini"
+				}
+			]
+		},
+		{
+			"id": "fnaf9_coop",
+			"displayName": "FNaF: SB Co-Op",
+			"conflicts": ["fml", "wireframe"],
+			"installation": [
+				{
+					"operation": "extract",
+					"source": "fnaf9_coop.pak",
+					"destination": "/fnaf9/Content/Paks/fnaf9-WindowsNoEditor_p.pak"
+				}
+			],
+			"uninstallation": [
+				{
+					"operation": "remove",
+					"directory": "/fnaf9/Content/Paks/fnaf9-WindowsNoEditor_p.pak"
+				}
+			]
+		},
+		{
+			"id": "wireframe",
+			"displayName": "FNaF Wireframe",
+			"conflicts": ["fml", "fnaf9_coop"],
+			"installation": [
+				{
+					"operation": "extract",
+					"source": "BGLoop.mp4",
+					"destination": "/fnaf9/Content/Movies/BGLoop.mp4"
+				},
+				{
+					"operation": "extract",
+					"source": "cb0eq0.mp4",
+					"destination": "/fnaf9/Content/Movies/cb0eq0.mp4"
+				},
+				{
+					"operation": "extract",
+					"source": "Intro.mp4",
+					"destination": "/fnaf9/Content/Movies/Intro.mp4"
+				},
+				{
+					"operation": "extract",
+					"source": "Loading_Screen_2.mp4",
+					"destination": "/fnaf9/Content/Movies/Loading_Screen_2.mp4"
+				},
+				{
+					"operation": "extract",
+					"source": "Loop.mp4",
+					"destination": "/fnaf9/Content/Movies/Loop.mp4"
+				},
+				{
+					"operation": "extract",
+					"source": "Outro.mp4",
+					"destination": "/fnaf9/Content/Movies/Outro.mp4"
+				},
+				{
+					"operation": "extract",
+					"source": "wireframe.pak",
+					"destination": "/fnaf9/Content/Paks/wireframe.pak"
+				},
+				{
+					"operation": "extract",
+					"source": "Engine.ini",
+					"destination": "%localappdata%/fnaf9/Saved/Config/WindowsNoEditor"
+				}
+			],
+			"uninstallation": [
+				{
+					"operation": "remove",
+					"directory": "%localappdata%/fnaf9/Saved/Config/WindowsNoEditor/Engine.ini"
+				},
+				{
+					"operation": "remove",
+					"directory": "/fnaf9/Content/Paks/wireframe.pak"
+				}
+			]
+		}
+	]
+}
