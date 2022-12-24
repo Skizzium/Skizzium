@@ -1,4 +1,23 @@
 {
+	"choo_choo_charles": [
+		{
+			"id": "charles_and_friends",
+			"displayName": "Charles & Friends",
+			"installation": [
+				{
+					"operation": "extract",
+					"source": "Obscure-WindowsNoEditor1.pak",
+					"destination": "/Obscure/Content/Paks/Obscure-WindowsNoEditor1.pak"
+				}
+			],
+			"uninstallation": [
+				{
+					"operation": "remove",
+					"directory": "/Obscure/Content/Paks/Obscure-WindowsNoEditor1.pak"
+				},
+			]
+		}
+	]
 	"security_breach": [
 		{
 			"id": "fml",
