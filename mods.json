@@ -3,6 +3,7 @@
 		{
 			"id": "charles_and_friends",
 			"displayName": "Charles & Friends",
+			"official": true,
 			"installation": [
 				{
 					"operation": "extract",
@@ -22,6 +23,7 @@
 		{
 			"id": "fml",
 			"displayName": "FNaF Menu Loader",
+			"official": true,
 			"conflicts": ["fnaf9_coop", "wireframe"],
 			"installation": [
 				{
@@ -92,6 +94,7 @@
 		{
 			"id": "fnaf9_coop",
 			"displayName": "FNaF: SB Co-Op",
+			"official": false,
 			"conflicts": ["fml", "wireframe"],
 			"installation": [
 				{
@@ -110,6 +113,7 @@
 		{
 			"id": "wireframe",
 			"displayName": "FNaF Wireframe",
+			"official": true,
 			"conflicts": ["fml", "fnaf9_coop"],
 			"installation": [
 				{
