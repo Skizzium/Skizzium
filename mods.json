@@ -95,6 +95,7 @@
 			"id": "fnaf9_coop",
 			"displayName": "FNaF: SB Co-Op",
 			"official": false,
+			"author": "Kokosko",
 			"conflicts": ["fml", "wireframe"],
 			"installation": [
 				{
