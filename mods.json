@@ -119,53 +119,44 @@
 			"installation": [
 				{
 					"operation": "extract",
-					"source": "BGLoop.mp4",
+					"source": "wireframe/fnaf9/Content/Movies/BGLoop.mp4",
 					"destination": "/fnaf9/Content/Movies/BGLoop.mp4"
 				},
 				{
 					"operation": "extract",
-					"source": "cb0eq0.mp4",
+					"source": "wireframe/fnaf9/Content/Movies/cb0eq0.mp4",
 					"destination": "/fnaf9/Content/Movies/cb0eq0.mp4"
 				},
 				{
 					"operation": "extract",
-					"source": "Intro.mp4",
+					"source": "wireframe/fnaf9/Content/Movies/Intro.mp4",
 					"destination": "/fnaf9/Content/Movies/Intro.mp4"
 				},
 				{
 					"operation": "extract",
-					"source": "Loading_Screen_2.mp4",
+					"source": "wireframe/fnaf9/Content/Movies/Loading_Screen_2.mp4",
 					"destination": "/fnaf9/Content/Movies/Loading_Screen_2.mp4"
 				},
 				{
 					"operation": "extract",
-					"source": "Loop.mp4",
+					"source": "wireframe/fnaf9/Content/Movies/Loop.mp4",
 					"destination": "/fnaf9/Content/Movies/Loop.mp4"
 				},
 				{
 					"operation": "extract",
-					"source": "Outro.mp4",
+					"source": "wireframe/fnaf9/Content/Movies/Outro.mp4",
 					"destination": "/fnaf9/Content/Movies/Outro.mp4"
 				},
 				{
 					"operation": "extract",
-					"source": "wireframe.pak",
-					"destination": "/fnaf9/Content/Paks/wireframe.pak"
-				},
-				{
-					"operation": "extract",
-					"source": "Engine.ini",
-					"destination": "%localappdata%/fnaf9/Saved/Config/WindowsNoEditor"
+					"source": "wireframe/fnaf9/Content/Paks/fnaf9-WindowsNoEditor1.pak",
+					"destination": "/fnaf9/Content/Paks/fnaf9-WindowsNoEditor1.pak"
 				}
 			],
 			"uninstallation": [
 				{
 					"operation": "remove",
-					"directory": "%localappdata%/fnaf9/Saved/Config/WindowsNoEditor/Engine.ini"
-				},
-				{
-					"operation": "remove",
-					"directory": "/fnaf9/Content/Paks/wireframe.pak"
+					"directory": "/fnaf9/Content/Paks/fnaf9-WindowsNoEditor1.pak"
 				}
 			]
 		}
