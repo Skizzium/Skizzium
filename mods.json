@@ -1,5 +1,5 @@
 {
-	"choo_choo_charles": [
+	"choo-choo-charles": [
 		{
 			"id": "charles_and_friends",
 			"displayName": "Charles & Friends",
@@ -19,7 +19,7 @@
 			]
 		}
 	],
-	"security_breach": [
+	"fnaf-security-breach": [
 		{
 			"id": "fml",
 			"displayName": "FNaF Menu Loader",
