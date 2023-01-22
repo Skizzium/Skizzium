@@ -25,6 +25,7 @@
 			"displayName": "FNaF Menu Loader",
 			"author": "Skizzium",
 			"conflicts": ["fnaf9_coop", "wireframe"],
+			"shortDescription": "This mod will let you use the debug menu used by the developers to test the game during development. You can get all items possible with a click of a button, trigger any cutscene in the game or teleport to an exact set of coordinates in the game.",
 			"installation": [
 				{
 					"operation": "extract",
