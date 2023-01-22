@@ -116,6 +116,7 @@
 			"displayName": "FNaF Wireframe",
 			"author": "Skizzium",
 			"conflicts": ["fml", "fnaf9_coop"],
+			"shortDescription": "Ever wanted to play as an animatronic against your friends in Five Nights at Freddy's: Security Breach? Well, now you can do that! You can play as either an animatronic and hunt down your friends or as Gregory, trying to survive as long as possible.",
 			"installation": [
 				{
 					"operation": "extract",
