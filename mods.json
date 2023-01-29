@@ -98,6 +98,7 @@
 			"author": "Skizzium",
 			"author": "Kokosko",
 			"conflicts": ["fml", "wireframe"],
+			"website": "https://discord.gg/p7QcKBVN9a",
 			"installation": [
 				{
 					"operation": "extract",
