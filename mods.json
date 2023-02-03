@@ -102,7 +102,7 @@
 			"installation": [
 				{
 					"operation": "extract",
-					"source": "fnaf9_coop.pak",
+					"source": "/fnaf9/Content/Paks/fnaf9-WindowsNoEditor_p.pak",
 					"destination": "/fnaf9/Content/Paks/fnaf9-WindowsNoEditor_p.pak"
 				}
 			],
