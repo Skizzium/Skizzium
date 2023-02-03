@@ -7,7 +7,7 @@
 			"installation": [
 				{
 					"operation": "extract",
-					"source": "Obscure-WindowsNoEditor1.pak",
+					"source": "/Obscure/Content/Paks/Obscure-WindowsNoEditor1.pak",
 					"destination": "/Obscure/Content/Paks/Obscure-WindowsNoEditor1.pak"
 				}
 			],
