@@ -95,10 +95,10 @@
 		{
 			"id": "fnaf9_coop",
 			"displayName": "FNaF: SB Co-Op",
-			"author": "Skizzium",
 			"author": "Kokosko",
-			"conflicts": ["fml", "wireframe"],
+			"unlisted": true,
 			"website": "https://discord.gg/p7QcKBVN9a",
+			"conflicts": ["fml", "wireframe"],
 			"installation": [
 				{
 					"operation": "extract",
