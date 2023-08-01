@@ -24,6 +24,7 @@
 			"id": "fml",
 			"displayName": "FNaF Menu Loader",
 			"author": "Skizzium",
+			"unlisted": true,
 			"conflicts": ["fnaf9_coop", "wireframe"],
 			"shortDescription": "This mod will let you use the debug menu used by the developers to test the game during development. You can get all items possible with a click of a button, trigger any cutscene in the game or teleport to an exact set of coordinates in the game.",
 			"installation": [
@@ -117,6 +118,7 @@
 			"id": "wireframe",
 			"displayName": "FNaF Wireframe",
 			"author": "Skizzium",
+			"unlisted": true,
 			"conflicts": ["fml", "fnaf9_coop"],
 			"shortDescription": "Ever wanted to play as an animatronic against your friends in Five Nights at Freddy's: Security Breach? Well, now you can do that! You can play as either an animatronic and hunt down your friends or as Gregory, trying to survive as long as possible.",
 			"installation": [
